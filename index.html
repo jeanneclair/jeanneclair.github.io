@@ -1,162 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jasmine Testing Exercise</title>
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/styles.css">
+
+    <title>Jeanne Clair's Portfolio</title>
 </head>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Source+Serif+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded|Source+Sans+Pro" rel="stylesheet">
 <body>
-    <div class="container">
+    <div id="container">
         <header>
-            <h1>Jasmine Testing Exercise</h1>
-            <nav>
-                <button class="nav-menu">MENU</button>
+            <nav class="dropdown">
+                <button class="dropbtn">MENU</button>
+                <div id="myDropdown" class="dropdown-content">
+                <!-- </div> -->
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li class="active"><a href="#">Portfolio</a></li>
-                    <li><a href="#">Bio</a></li>
+                   <li><a href="#about-me">About Me</a></li>
+                   <li><a href="#projects">Projects</a></li> 
                 </ul>
+                </div>
             </nav>
+            <h1>Jeanne Clair</h1>
+            <h2>Software Developer Apprentice</h2>
         </header>
         <main>
-            <section class="cards">
-                <section class="new-card">
-                    <form>
-                        <h2>New Card</h2>
-                        <label>Title: <input type="text"></label>
-                        <label>Content:</label>
-                        <textarea cols="30" rows="10"></textarea>
-                        <input type="submit">
-                    </form>
-                </section>
-                <section class="card">
-                    <header>
-                        <h2>Card Title</h2>
-                        <button>+</button>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam reprehenderit adipisci tempore facilis a et laboriosam esse id suscipit architecto reiciendis qui eos repellendus dicta, non. Aut, dolorem, placeat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nam atque voluptate blanditiis facere, dolor ducimus illum voluptatum unde velit laborum, soluta fugit quae nostrum molestias natus neque molestiae corrupti.</p>
-                    </main>
-                    <aside>
-                        <h3>Social Media Links</h3>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                        </ul>
-                    </aside>
-                    <footer>
-                        <a href="#">Read More...</a>
-                    </footer>
-                </section>
-                <section class="card">
-                    <header>
-                        <h2>Card Title</h2>
-                        <button>+</button>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam reprehenderit adipisci tempore facilis a et laboriosam esse id suscipit architecto reiciendis qui eos repellendus dicta, non. Aut, dolorem, placeat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nam atque voluptate blanditiis facere, dolor ducimus illum voluptatum unde velit laborum, soluta fugit quae nostrum molestias natus neque molestiae corrupti.</p>
-                    </main>
-                    <aside>
-                        <h3>Social Media Links</h3>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                        </ul>
-                    </aside>
-                    <footer>
-                        <a href="#">Read More...</a>
-                    </footer>
-                </section>
-                <section class="card">
-                    <header>
-                        <h2>Card Title</h2>
-                        <button>+</button>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam reprehenderit adipisci tempore facilis a et laboriosam esse id suscipit architecto reiciendis qui eos repellendus dicta, non. Aut, dolorem, placeat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nam atque voluptate blanditiis facere, dolor ducimus illum voluptatum unde velit laborum, soluta fugit quae nostrum molestias natus neque molestiae corrupti.</p>
-                    </main>
-                    <aside>
-                        <h3>Social Media Links</h3>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                        </ul>
-                    </aside>
-                    <footer>
-                        <a href="#">Read More...</a>
-                    </footer>
-                </section>
-                <section class="card">
-                    <header>
-                        <h2>Card Title</h2>
-                        <button>+</button>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam reprehenderit adipisci tempore facilis a et laboriosam esse id suscipit architecto reiciendis qui eos repellendus dicta, non. Aut, dolorem, placeat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nam atque voluptate blanditiis facere, dolor ducimus illum voluptatum unde velit laborum, soluta fugit quae nostrum molestias natus neque molestiae corrupti.</p>
-                    </main>
-                    <aside>
-                        <h3>Social Media Links</h3>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                        </ul>
-                    </aside>
-                    <footer>
-                        <a href="#">Read More...</a>
-                    </footer>
-                </section>
-                <section class="card">
-                    <header>
-                        <h2>Card Title</h2>
-                        <button>+</button>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam reprehenderit adipisci tempore facilis a et laboriosam esse id suscipit architecto reiciendis qui eos repellendus dicta, non. Aut, dolorem, placeat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nam atque voluptate blanditiis facere, dolor ducimus illum voluptatum unde velit laborum, soluta fugit quae nostrum molestias natus neque molestiae corrupti.</p>
-                    </main>
-                    <aside>
-                        <h3>Social Media Links</h3>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                        </ul>
-                    </aside>
-                    <footer>
-                        <a href="#">Read More...</a>
-                    </footer>
-                </section>
+            <figure>
+                <img src="./src/images/heroImage.jpg" alt="black and white image of cat at a laptop">
+            </figure>
+            <section class="about-me" id="about-me">
+<!--                     <h3>About Me</h3>
+ -->                            <img src="./src/images/headshot.jpg" alt="headshot of Jeanne wearing a black dress with a pink trim">
+                            <ul>
+                                <li><p>After 20 years of teaching, instructional design, and being a stay-at-home-mom, I wanted to start a career
+                                in software development. My nine-year old son asked me to teach him how to code, but I didn't know where to begin. Together,
+                                we completed a few online modules, and that is when I found a new passion. Within a few months, I enrolled at We Can Code It,
+                                and am now a Software Developer Apprentice. </p></li>
+                                <li>Skills: Java, Spring, TDD, JavaScipt, HTML5, CSS</li>
+                                <li> <a href="mailto:jeanne.m.clair@gmail.com">Email</a></li>
+                                <li><a href="http://www.linkedin.com/in/jeanne-clair">LinkedIn</a></li>
+                                <li><a href="http://www.github.com/jeanneclair">GitHub</a></li>
+                            </ul>
+
+
+            </section>
+            <section class="projects" id="projects">
+                    <!-- <h3 class="clearfix">Projects</h3> -->
+                        <article> 
+                            <ul>
+                                <li><a href="https://github.com/jeanneclair/virtual-pet">
+                                    <img src="./src/images/githubIcon.png"></a></li>
+                                <li><h4>Virtual Pet</h4></li>
+                                <li>Skills: Java</li>
+                            </ul>
+                        </article>
+                         <article>
+                            <ul>
+                                <li><a href="https://github.com/jeanneclair/virtual-pet-shelter">
+                                 <img src="./src/images/githubIcon.png"></a></li>
+                                <li><h4>Virtual Pet Shelter</h4></li>
+                                <li>Skills: Java, TDD</li>
+                            </ul>
+                        </article>
+                        <article>              
+                            <ul>
+                                <li><a href="https://github.com/jeanneclair/virtual-pets-amok">
+                                 <img src="./src/images/githubIcon.png"></a></li>
+                                <li><h4>Virtual Pets Amok</h4></li>
+                                <li>Skills: Java, TDD</li>
+                            </ul>
+                        </article>
+
+                 
             </section>
         </main>
-        <aside>
-            <section class="news-feed">
-                <section class="news-feed-card">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit repellat, expedita sint qui, consectetur nemo sequi porro, quas deleniti tenetur repudiandae eos magni incidunt harum quam quia suscipit itaque id!</p>
-                </section>
-                <section class="news-feed-card">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit repellat, expedita sint qui, consectetur nemo sequi porro, quas deleniti tenetur repudiandae eos magni incidunt harum quam quia suscipit itaque id!</p>
-                </section>
-                <section class="news-feed-card">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit repellat, expedita sint qui, consectetur nemo sequi porro, quas deleniti tenetur repudiandae eos magni incidunt harum quam quia suscipit itaque id!</p>
-                </section>
-            </section>
-        </aside>
         <footer>
             <small>&copy;2018</small>
         </footer>
-    </div><!-- /.container -->
-    <script src="./src/js/app.js"></script>
+    </div>
+<script src="./src/js/app.js"></script>
 </body>
 </html>
