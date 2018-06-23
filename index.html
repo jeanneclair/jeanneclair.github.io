@@ -11,18 +11,24 @@
 <body>
     <div id="container">
         <header>
+            <div class="nav-buttons">   
+                <a href="http://www.github.com/jeanneclair"><img src="./src/images/NavGithub.png"></a>
+                <a href="http://www.linkedin.com/in/jeanne-clair"><img src="./src/images/NavLinkedIn.png"></a>
+                <a href="mailto:jeanne.m.clair@gmail.com"><img src="./src/images/NavEmail.webp"></a>
+            </div>
             <nav class="dropdown">
                 <button class="dropbtn">MENU</button>
                 <div id="myDropdown" class="dropdown-content">
-                <!-- </div> -->
                 <ul>
                    <li><a href="#about-me">About Me</a></li>
                    <li><a href="#projects">Projects</a></li> 
                 </ul>
-                </div>
+                </div>  
             </nav>
+            <div class="intro">
             <h1>Jeanne Clair</h1>
             <h2>Software Developer Apprentice</h2>
+            </div>
         </header>
         <main>
             <figure>
@@ -30,28 +36,30 @@
             </figure>
             <section class="about-me" id="about-me">
 <!--                     <h3>About Me</h3>
- -->                            <img src="./src/images/headshot.jpg" alt="headshot of Jeanne wearing a black dress with a pink trim">
+ -->                            
                             <ul>
+                                <li><img id="headshot" src="./src/images/headshot.jpg" alt="headshot of Jeanne wearing a black dress with a pink trim"></li>
                                 <li><p>After 20 years of teaching, instructional design, and being a stay-at-home-mom, I wanted to start a career
                                 in software development. My nine-year old son asked me to teach him how to code, but I didn't know where to begin. Together,
                                 we completed a few online modules, and that is when I found a new passion. Within a few months, I enrolled at We Can Code It,
                                 and am now a Software Developer Apprentice. </p></li>
                                 <li>Skills: Java, Spring, TDD, JavaScipt, HTML5, CSS</li>
-                                <li> <a href="mailto:jeanne.m.clair@gmail.com">Email</a></li>
-                                <li><a href="http://www.linkedin.com/in/jeanne-clair">LinkedIn</a></li>
-                                <li><a href="http://www.github.com/jeanneclair">GitHub</a></li>
                             </ul>
-
-
+                                <div class="about-me-contact">
+                                    <span><a href="mailto:jeanne.m.clair@gmail.com"><img src="./src/images/NavEmail.webp"></a></span>   
+                                    <span><a href="http://www.linkedin.com/in/jeanne-clair"><img src="./src/images/NavLinkedIn.png"></a></span>
+                                    <span><a href="http://www.github.com/jeanneclair"><img src="./src/images/NavGithub.png"></a></span>   
+                                </div>
+                            
             </section>
             <section class="projects" id="projects">
-                    <!-- <h3 class="clearfix">Projects</h3> -->
+                    <!-- <h3>Projects</h3> -->
                         <article> 
                             <ul>
                                 <li><a href="https://github.com/jeanneclair/virtual-pet">
                                     <img src="./src/images/githubIcon.png"></a></li>
                                 <li><h4>Virtual Pet</h4></li>
-                                <li>Skills: Java</li>
+                                <li>I used Java and created a virtual cat to feed and water in order to maintain its happiness. </li>
                             </ul>
                         </article>
                          <article>
@@ -59,7 +67,7 @@
                                 <li><a href="https://github.com/jeanneclair/virtual-pet-shelter">
                                  <img src="./src/images/githubIcon.png"></a></li>
                                 <li><h4>Virtual Pet Shelter</h4></li>
-                                <li>Skills: Java, TDD</li>
+                                <li>Based on the Pet project, I used Java and TDD and created a map of virtual pets to feed, water, play, adopt, and admit.</li>
                             </ul>
                         </article>
                         <article>              
@@ -67,7 +75,7 @@
                                 <li><a href="https://github.com/jeanneclair/virtual-pets-amok">
                                  <img src="./src/images/githubIcon.png"></a></li>
                                 <li><h4>Virtual Pets Amok</h4></li>
-                                <li>Skills: Java, TDD</li>
+                                <li>Based on the Shelter project, I used Java and TDD to include abstract classes and interfaces that allow the user to walk the pets and maintain the cleanliness of their environment. </li>
                             </ul>
                         </article>
 

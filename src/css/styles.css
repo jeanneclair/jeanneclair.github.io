@@ -1,15 +1,15 @@
 .about-me a {
 	text-decoration: none;	
-	color: #7FBF3F;
+	color: black;
 }
 
 .about-me a:hover {
-	color: black;	
+	color: white;	
 }
 
-.about-me ul li {
+/*.about-me ul li {
 	padding-bottom: 1rem;
-}
+}*/
 
 body {
 	font-family: 'Source Sans Pro', 'Encode Sans Semi Expanded', sans-serif;
@@ -65,19 +65,19 @@ body {
 h1 {
 	color: white;
 	font-family: 'Crimson Text', 'Source Serif Pro', serif;
-	margin-top: 20vh;
+	/*margin-top: 20vh;
 	margin-left: 10vw;
 	font-size: 4rem;
-	float: left;
+	float: left;*/
 }
 
 h2 {
 	color: white;
 	font-family: 'Crimson Text', 'Source Serif Pro', serif;
-	margin-top: 1vh;
+	/*margin-top: 1vh;
 	margin-right: 65vw;
 	font-size: 2rem;
-	float: right;
+	float: right;*/
 }
 
 h3 {
