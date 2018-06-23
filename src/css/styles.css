@@ -62,11 +62,13 @@ body {
 h1 {
 	color: white;
 	font-family: 'Crimson Text', 'Source Serif Pro', serif;
+	font-size: 15vh;
 }
 
 h2 {
 	color: white;
 	font-family: 'Crimson Text', 'Source Serif Pro', serif;
+	font-size: 5.8vh;
 }
 
 h3 {
