@@ -7,19 +7,16 @@
 	color: white;	
 }
 
-/*.about-me ul li {
-	padding-bottom: 1rem;
-}*/
-
 body {
 	font-family: 'Source Sans Pro', 'Encode Sans Semi Expanded', sans-serif;
 }
 
 .dropdown {
-  float: right;
-  overflow: hidden;
-  padding-right: 2rem;
-  padding-top: 2rem;
+  	float: right;
+ 	overflow: hidden;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-left: 1vw;
 }
 
 .dropdown .dropbtn {
@@ -65,19 +62,11 @@ body {
 h1 {
 	color: white;
 	font-family: 'Crimson Text', 'Source Serif Pro', serif;
-	/*margin-top: 20vh;
-	margin-left: 10vw;
-	font-size: 4rem;
-	float: left;*/
 }
 
 h2 {
 	color: white;
 	font-family: 'Crimson Text', 'Source Serif Pro', serif;
-	/*margin-top: 1vh;
-	margin-right: 65vw;
-	font-size: 2rem;
-	float: right;*/
 }
 
 h3 {
@@ -90,7 +79,6 @@ h3 {
 }
 
 .projects article > ul > li {
-	/*border: 1px solid black;*/
 	text-align: center;
 	padding-top: 1rem;
 }
