@@ -126,6 +126,15 @@ h3 {
 	opacity: 0.5;
 }
 
+.projects-more a {
+	text-decoration: none;
+	color: #F2F1F1;
+}
+
+.projects-more a:hover {
+	color: #7FBF3F;
+}
+
 #projects-title {
 	padding-top: 20vh;
 	font-size: 5vh;
