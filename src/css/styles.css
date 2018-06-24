@@ -28,18 +28,19 @@ body {
 }
 
 .dropdown .dropbtn {
-	font-size: 1.5rem;
+	font-size: 4vh;
 	color: #F2F1F1;
 	font-weight: bold;
 	border: none;
 	outline: none;
 	background-color: transparent;
-	padding: .5rem, .5rem; 
+	padding: 1vh, 1vh; 
 	font-family: 'Song Myung', 'Markazi Text', serif;
 }
 
 .dropdown:hover .dropbtn {
-	background-color: #7FBF3F;
+	opacity: 0.5;
+
 
 }
 
@@ -48,12 +49,13 @@ body {
 	position: absolute;
 	background-color: none;
 	z-index: 1;
+	padding-top: 1vh;
 }
 
 .dropdown-content a {
 	text-decoration: none;
 	color: #F2F1F1;
-	font-size: 1rem;
+	font-size: 3vh;
 	font-family: 'Song Myung', 'Markazi Text', serif;
 
 }
@@ -67,8 +69,16 @@ body {
 	display: block;
 }
 
+#email-icon:hover {
+	opacity: 0.5;
+}
+
 footer {
 	background-color: #7FBF3F;
+}
+
+#github-icon:hover {
+	opacity: 0.5;
 }
 
 h1 {
@@ -89,7 +99,11 @@ h3 {
     float: left;
     position: absolute;
 	width: 100%;
-	z-index: 1;
+	z-index: 1; 
+}
+
+#linkedin-icon:hover {
+	opacity: 0.5;
 }
 
 .projects article ul li {
