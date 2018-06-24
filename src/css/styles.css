@@ -136,3 +136,7 @@ h3 {
 #skills {
 	font-style: italic;
 }
+
+.typewriter p {
+	font-size: 4vh;
+}
