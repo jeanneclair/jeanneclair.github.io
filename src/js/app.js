@@ -19,3 +19,28 @@ window.onclick = function(event) {
     myFunction()
   }
 }
+
+// var emailIcon = document.getElementById("emailIcon");
+// for (elem of emailIcon) {
+//   elem.addEventListener('mouseover', function() {
+//     elem.style.backgroundColor = 'white';
+//   })
+//   elem.addEventListener('mouseout', function() {
+//     elem.style.backgroundColor = 'none';
+//   })
+// };
+
+// var emailIcon = document.getElementById("emailIcon");
+// for (elem of emailIcon) {
+//   elem.addEventListener('click', function() {
+//     elem.style.backgroundColor = 'white';
+//   })
+//   elem.addEventListener('mouseout', function() {
+//     elem.style.backgroundColor = 'none';
+//   })
+// };
+
+var emailIcon = document.getElementById("emailIcon");
+emailIcon.addEventListener('mouseover', function() {
+    elem.style.backgroundColor = 'white';
+  })
