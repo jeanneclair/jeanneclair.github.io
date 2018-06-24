@@ -7,6 +7,10 @@
 	color: white;	
 }
 
+.about-me-contact img:hover {
+	opacity: 0.5;
+} 
+
 #about-me-title {
 	width: 50vw;
 	padding-left: 9vw;
@@ -35,7 +39,7 @@ body {
 	outline: none;
 	background-color: transparent;
 	padding: 1vh, 1vh; 
-	font-family: 'Song Myung', 'Markazi Text', serif;
+	font-family: 'Crimson Text', 'Source Serif Pro', serif;
 }
 
 .dropdown:hover .dropbtn {
@@ -56,7 +60,7 @@ body {
 	text-decoration: none;
 	color: #F2F1F1;
 	font-size: 3vh;
-	font-family: 'Song Myung', 'Markazi Text', serif;
+	font-family: 'Crimson Text', 'Source Serif Pro', serif;
 
 }
 
@@ -116,6 +120,10 @@ h3 {
 	padding-top: 1vh;
 	padding-left: 2vw;
 	padding-right: 2vw;
+}
+
+.projects img:hover {
+	opacity: 0.5;
 }
 
 #projects-title {
