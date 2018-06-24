@@ -99,7 +99,9 @@ h3 {
 
 .projects article > ul > li {
 	text-align: center;
-	padding-top: 1rem;
+	padding-top: 1vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 #projects-title {
