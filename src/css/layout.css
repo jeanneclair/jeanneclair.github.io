@@ -4,14 +4,6 @@
 	padding: 0;
 }
 
-#headshot {
-	width: 250px;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	margin-bottom: 5vh;
-}
 
 #about-me {
 	text-align: center;
@@ -88,6 +80,15 @@ header img {
 	margin-left: 1vw;
 }
 
+#headshot {
+	width: 250px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 5vh;
+}
+
 .intro {
 	float: left;
 	margin-top: 20vh;
@@ -122,4 +123,10 @@ header img {
 	padding-left: 20vw;
 	padding-right: 20vw;
 
+}
+
+.typewriter {
+	width: 7vw;
+	margin-top: 48vh;
+	margin-left: 60vw;
 }

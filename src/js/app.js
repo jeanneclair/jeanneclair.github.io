@@ -20,27 +20,45 @@ window.onclick = function(event) {
   }
 }
 
-// var emailIcon = document.getElementById("emailIcon");
-// for (elem of emailIcon) {
-//   elem.addEventListener('mouseover', function() {
-//     elem.style.backgroundColor = 'white';
-//   })
-//   elem.addEventListener('mouseout', function() {
-//     elem.style.backgroundColor = 'none';
-//   })
-// };
+var i = 0;
+var txt = '#educator #lifeLongLearner #clarinetist #traveler'; 
+var speed = 50; 
 
-// var emailIcon = document.getElementById("emailIcon");
-// for (elem of emailIcon) {
-//   elem.addEventListener('click', function() {
-//     elem.style.backgroundColor = 'white';
-//   })
-//   elem.addEventListener('mouseout', function() {
-//     elem.style.backgroundColor = 'none';
-//   })
-// };
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typed1").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+window.onload = typeWriter();
 
-var emailIcon = document.getElementById("emailIcon");
-emailIcon.addEventListener('mouseover', function() {
-    elem.style.backgroundColor = 'white';
-  })
+
+
+// var i1 = 0;
+// var txt1 = '#educator #lifeLongLearner'; 
+// var speed1 = 50; 
+
+// function typeWriter1() {
+//   if (i1 < txt1.length) {
+//     document.getElementById("typed1").innerHTML += txt1.charAt(i1);
+//     i1++;
+//     setTimeout(typeWriter1, speed1);
+//   }
+// }
+// window.onload = typeWriter1();
+
+// var i2 = 0;
+// var txt2 = '#clarinetist #traveler'; 
+// var speed2 = 50; 
+
+// function typeWriter2() {
+//   if (i2 < txt2.length) {
+//     document.getElementById("typed2").innerHTML += txt2.charAt(i2);
+//     i2++;
+//     setTimeout(typeWriter2, speed2);
+//   }
+// }
+// window.onload = typeWriter2();
+
+
