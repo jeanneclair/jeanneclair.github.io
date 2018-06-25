@@ -37,6 +37,14 @@
 	display: block;
 }
 
+.about-me-title {
+	padding-top: 15vh;
+	/*border-style: solid;
+	border-width: 1px;*/
+	font-size: 5vh;
+
+}
+
 figure {
 	margin: none;
 	position: relative;
@@ -90,6 +98,10 @@ header img {
 	margin-bottom: 3vh;
 }
 
+.headshot-main {
+	margin-top: 5vh;
+}
+
 .intro {
 	float: left;
 	margin-top: 20vh;
@@ -126,8 +138,20 @@ header img {
 
 }
 
+#projects-title {
+	text-align: center;
+    float: left;
+    position: absolute;
+	width: 100%;
+	z-index: 1; 
+}
+
+#skills {
+	padding-top: 3vh;
+}
+
 .typewriter {
 	width: 7vw;
-	margin-top: 48vh;
+	margin-top: 40vh;
 	margin-left: 60vw;
 }

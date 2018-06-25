@@ -11,12 +11,12 @@
 	opacity: 0.5;
 } 
 
-#about-me-title {
+/*#about-me-title {
 	width: 50vw;
 	padding-left: 9vw;
 	padding-top: 7vh;
 	font-size: 5vh;
-}
+}*/
 
 body {
 	font-family: 'Source Sans Pro', 'Encode Sans Semi Expanded', sans-serif;
@@ -96,14 +96,6 @@ h2 {
 	font-family: 'Crimson Text', 'Source Serif Pro', serif;
 	font-size: 5.8vh;	
 
-}
-
-h3 {
-	text-align: center;
-    float: left;
-    position: absolute;
-	width: 100%;
-	z-index: 1; 
 }
 
 #linkedin-icon:hover {
