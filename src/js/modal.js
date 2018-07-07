@@ -31,3 +31,19 @@ closeModalButton.addEventListener("click", function() {
   document.querySelector("#modal-mask").classList.remove("open");
   
 })
+
+const openDetailsButton = document.getElementById("details-modal");
+
+openDetailsButton.addEventListener("click", function(){
+const para = document.getElementById("details-about-me");
+
+  if (para.classList.contains("open")) {
+    para.classList.remove("open");
+    openDetailsButton.innerText = "Details";   
+  } else { 
+    para.classList.add("open");
+    openDetailsButton.innerText = "Hide";
+  }
+
+open = !open; 
+});
