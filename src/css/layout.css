@@ -173,13 +173,13 @@
 }
 
 .mySlides img{
-	width: 800px;
+	width: 80vw;
 	/* justify-content: center; */
 }
 
 .mySlides p {
 	/* text-align: center; */
-	width: 800px;
+	width: 80vw;
 }
 
 .nav-buttons {
@@ -191,6 +191,7 @@
 }
 .navigation {
 	display: flex;
+	/* flex-direction: row-reverse; */
 	justify-content: flex-end;
 	align-items: flex-start;
 	padding-top: 2vh;
@@ -200,7 +201,8 @@
 }
 
 .next, .prev {
-	font-size: 4rem;
+	font-size: 5vw;
+	/* align-items: flex-end; */
 }
 
 
@@ -216,11 +218,11 @@
 	/* grid-template-columns: 10px 800px 10px;
 	grid-template-rows: 400px 200px; */
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
 	margin: auto;
-	width: 900px;
+	width: 90vw;
 	margin-top: 10vh;
 
 }
@@ -240,8 +242,15 @@
 
 	.intro {
 		/* color: red; */
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		flex-direction: column;
+		align-items: center;
 		width: 300px;
-		/* justify-content: center; */
+		justify-content: center;
+		/* border: solid 1px black; */
+		/* text-align: center; */
 	}
 
 	#modal-box {
@@ -276,6 +285,10 @@
 
 
 	.navigation {
+		/* border: solid 1px black;
+		padding: none;
+		margin: none; */
 		justify-content: center;
+		padding-left: 16vw;
 	}
 }
