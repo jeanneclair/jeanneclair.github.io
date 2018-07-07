@@ -20,15 +20,14 @@ window.onclick = function(event) {
   }
 }
 
-var i = 0;
-var txt = '#educator #lifeLongLearner #clarinetist #traveler'; 
-var speed = 50; 
+const openModalButton = document.getElementById("about-me-button");
+const closeModalButton = document.getElementById("close-modal");
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typed1").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-window.onload = typeWriter();
+openModalButton.addEventListener("click", function () {
+  document.querySelector("#modal-mask").classList.add("open");
+})
+
+closeModalButton.addEventListener("click", function() {
+  document.querySelector("#modal-mask").classList.remove("open");
+  
+})

@@ -1,0 +1,143 @@
+.about-me a {
+	text-decoration: none;	
+	color: black;
+}
+
+.about-me a:hover {
+	color: white;	
+}
+
+.about-me-contact img:hover {
+	opacity: 0.5;
+} 
+
+/*#about-me-title {
+	width: 50vw;
+	padding-left: 9vw;
+	padding-top: 7vh;
+	font-size: 5vh;
+}*/
+
+body {
+	font-family: 'Source Sans Pro', 'Encode Sans Semi Expanded', sans-serif;
+	background-color: #7FBF3F;
+}
+
+.dropdown {
+  	float: right;
+ 	overflow: hidden;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-left: 1vw;
+}
+
+.dropdown .dropbtn {
+	font-size: 4vh;
+	color: #F2F1F1;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 1vh, 1vh; 
+	font-family: 'Crimson Text', 'Source Serif Pro', serif;
+}
+
+.dropdown:hover .dropbtn {
+	opacity: 0.5;
+
+
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: none;
+	z-index: 1;
+	padding-top: 1vh;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+	color: #F2F1F1;
+	font-size: 3vh;
+	font-family: 'Crimson Text', 'Source Serif Pro', serif;
+
+}
+
+.dropdown-content a:hover {
+	background-color: none;
+	color: #7FBF3F;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#email-icon:hover {
+	opacity: 0.5;
+}
+
+footer {
+	background-color: #7FBF3F;
+}
+
+#github-icon:hover {
+	opacity: 0.5;
+}
+
+h1 {
+	color: #F2F1F1;
+	font-family: 'Crimson Text', 'Source Serif Pro', serif;
+	font-size: 15vh;
+}
+
+h2 {
+	color: #F2F1F1;
+	font-family: 'Crimson Text', 'Source Serif Pro', serif;
+	font-size: 5.8vh;	
+
+}
+
+#linkedin-icon:hover {
+	opacity: 0.5;
+}
+
+.projects article ul li {
+	list-style-type: none
+
+}
+
+.projects article > ul > li {
+	text-align: center;
+	padding-top: 1vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.projects img:hover {
+	opacity: 0.5;
+}
+
+.projects-more a {
+	text-decoration: none;
+	color: #F2F1F1;
+}
+
+.projects-more a:hover {
+	color: #7FBF3F;
+}
+
+#projects-title {
+	padding-top: 20vh;
+	font-size: 5vh;
+}
+
+.show {display:block;}
+
+#skills {
+	font-style: italic;
+}
+
+.typewriter p {
+	font-size: 4vh;
+}
