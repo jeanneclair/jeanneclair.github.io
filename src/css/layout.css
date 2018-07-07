@@ -225,7 +225,7 @@
 
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 800px) {
 	#details-modal {
 		display: block;
 		width: 50px;
