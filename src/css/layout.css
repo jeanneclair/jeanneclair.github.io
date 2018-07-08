@@ -139,13 +139,13 @@
 #modal-mask {
 	display: none;
 	position: fixed;
-  	width: 100vw;
- 	height: 100vh;
-  	background: rgba(0, 0, 0, 0.7);
-  	top: 0;
-  	left: 0;
-  	justify-content: center;
-  	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	justify-content: center;
+	align-items: center;
 }
 
 #modal-mask.open {
@@ -173,14 +173,15 @@
 }
 
 .nav-buttons img {
-    width: 30px;
+	width: 30px;
 }
 .navigation {
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
 	padding-top: 2vh;
-	padding-right: 12vh;
+	padding-right: 5vw;
+	/* margin-right:  */
 }
 
 .next, .prev {
@@ -230,12 +231,14 @@ p {
 		align-items: center;
 		width: 300px;
 		justify-content: center;
+		/* margin-top: none; */
 	}
 
 	#modal-box {
 		overflow: scroll;
-		height: 75vh;
+		height: 75vh;	
 	}
+
 	#modal-box main {
 		padding: 1vh 5vh;
 		display: flex;
@@ -246,7 +249,6 @@ p {
 	#modal-box main p {
 		display: none;
 		padding-left: 2vw;
-	
 	}
 
 	#modal-box main p.open {
@@ -257,5 +259,7 @@ p {
 
 	.navigation {
 		justify-content: center;
-		padding-left: 16vw;
+		padding-left: 5vw;
+		padding-right: none;
+		padding: none;
 	}
