@@ -45,5 +45,4 @@ const para = document.getElementById("details-about-me");
     openDetailsButton.innerText = "Hide";
   }
 
-open = !open; 
 });
