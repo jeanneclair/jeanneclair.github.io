@@ -6,10 +6,10 @@ function myFunction() {
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
+    const dropdowns = document.getElementsByClassName("dropdown-content");
+    let i;
     for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
+      const openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
@@ -34,7 +34,7 @@ closeModalButton.addEventListener("click", function() {
 
 const openDetailsButton = document.getElementById("details-modal");
 
-openDetailsButton.addEventListener("click", function(){
+openDetailsButton.addEventListener("click", function() {
 const para = document.getElementById("details-about-me");
 
   if (para.classList.contains("open")) {

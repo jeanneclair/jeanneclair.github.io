@@ -45,7 +45,6 @@
 
 .dropdown:hover .dropbtn {
   opacity: 0.5;
-
 }
 
 .dropdown-content {
@@ -53,8 +52,7 @@
   position: absolute;
   background-color: none;
   z-index: 1;
-  padding-top: 1vh;
-  
+  padding-top: 1vh;  
 }
 
 .dropdown-content a {
@@ -62,7 +60,6 @@
   color: #162022;
   font-size: 3vh;
   font-family: sans-serif;
-
 }
 
 .dropdown-content a:hover {
@@ -169,7 +166,7 @@
 }
 
 .nav-buttons {
-	padding-right: .5vw;
+	padding-right: .33vw;
 }
 
 .nav-buttons img {
@@ -181,7 +178,6 @@
 	align-items: flex-start;
 	padding-top: 2vh;
 	padding-right: 5vw;
-	/* margin-right:  */
 }
 
 .next, .prev {
@@ -196,7 +192,6 @@ p {
 	background-color: #f5e0df;	
 	padding-bottom: 3vh;
 }
-
 
 .show {
 	display:block;
@@ -220,7 +215,7 @@ p {
 		display: block;
 		width: 50px;
 		justify-content: center;
-		margin-top: 5vh;
+		margin-top: 1vh;
 	}
 	
 	.intro {
@@ -231,12 +226,11 @@ p {
 		align-items: center;
 		width: 300px;
 		justify-content: center;
-		/* margin-top: none; */
 	}
 
-	#modal-box {
-		overflow: scroll;
-		height: 75vh;	
+	#details-about-me {
+		overflow-y: scroll;
+		max-height: 45vh;	
 	}
 
 	#modal-box main {
@@ -255,7 +249,6 @@ p {
 		display: block;
 		padding: 4vh;		
 	}
-
 
 	.navigation {
 		justify-content: center;
