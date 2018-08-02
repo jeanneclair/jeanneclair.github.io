@@ -163,6 +163,7 @@
 
 .mySlides p {
 	width: 80vw;
+	margin-bottom: 3vh;
 }
 
 .nav-buttons {
@@ -182,6 +183,11 @@
 
 .next, .prev {
 	font-size: 5vw;
+	cursor: pointer;
+}
+
+.next:hover, .prev:hover {
+	color: white;
 }
 
 p {
@@ -256,3 +262,4 @@ p {
 		padding-right: none;
 		padding: none;
 	}
+}
